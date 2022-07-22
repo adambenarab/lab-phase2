@@ -67,7 +67,7 @@ FOOD
     in Tunisia, both modern, trendy, and traditional.</p>
 
 
-<h1 class="trendy">-New-</h1>
+<h1 class="new">-New-</h1>
 <section class="container">
     <div class="food">
 <div class="card-image food-1"></div>
@@ -360,7 +360,7 @@ More than 25 different and original experiences offering you total immersion and
     -CONTACT-
     </h1>
 <div class="container">
-    <form action="action_page.php">
+    <form id="form" action="action_page.php" name="f">
   
       <label for="fname" style="font-family: 'Poppins', sans-serif;color: white;">First Name</label>
       <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -375,10 +375,10 @@ More than 25 different and original experiences offering you total immersion and
         <option value="usa" style="font-family: 'Poppins', sans-serif">USA</option>
       </select>
   
-      <label for="subject" style="font-family: 'Poppins', sans-serif;color: white;">Subject</label>
+      <label for="subject" style="font-family: 'Poppins', sans-serif;color: white;">Rate our project</label>
       <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px;font-family:'Poppins', sans-serif;"></textarea>
   
-      <input type="submit" value="Submit">
+      <input type="button" value="Submit" onclick="return verif()">
   
     </form>
     <script>
@@ -386,6 +386,29 @@ More than 25 different and original experiences offering you total immersion and
         window.addEventListener("load", function(){
             loader.style.display = "none";
         })
+        function verif(){
+            var name=f.firstname.value
+            var lastname=f.lastname.value
+            var ind=f.country.selectedIndex;
+            var desc=f.subject.value
+            if(name=='') {
+                alert("first name empty")
+                return false;
+            }   
+            if(lastname=='') {
+                alert("last name empty")
+                return false;
+            } 
+            if(ind<0) {
+                alert("SELECT COUNTRY PLS")
+                return false;
+            } 
+            if(desc=='') {
+                alert("desc empty")
+                return false;
+            }     
+        }
+
     </script>
   
 </body>
