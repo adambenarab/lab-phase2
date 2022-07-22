@@ -1,0 +1,421 @@
+
+html{ scroll-behavior: smooth;}
+body {
+background-color: #202020;
+}
+.background-one{
+background-image: url(https://content.r9cdn.net/rimg/dimg/22/6e/d852e28f-city-48786-17178e39356.jpg?crop=true&width=1020&height=498);
+background-size: cover;
+width: 100%;
+height: 970px;
+}
+
+body{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+height: 100px;
+padding: 10px 90px;
+box-sizing: border-box;
+background: rgba(0,0,0,0.6);
+border-bottom: 1px solid #fff;
+z-index: 10;
+transition: sm; 
+}
+nav .logo{
+padding-top: 12px;
+height: 25px;
+float: left;
+font-size: 24px;
+font-weight: bold;
+text-transform: uppercase;
+color: #fff;
+}
+.zero-img{
+width: 40px;
+height: 40px;
+}
+nav ul{
+list-style: none;
+float: right;
+margin: 0px;
+padding: 0;
+display: flex;
+}
+nav ul li a{
+line-height: 80px;
+color: #fff;
+padding: 12px 30px;
+text-decoration: none;
+font-size: 14px;
+font-weight: bold;
+text-transform: uppercase;
+border: 2px solid red;
+margin: 5px;
+border-radius: 15px;
+}
+nav ul li a:hover{
+background: #FF3838;
+transition: 0.5s;
+} 
+.first-img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 105px;
+height: 125px;
+}
+.icons{
+display: flex;
+text-decoration: none;
+list-style: none;
+align-items: center;
+justify-content: center;
+fill: #fff;
+}
+.paraghraphe{
+text-align: center;
+font-family: 'Poppins', sans-serif;
+color: white;
+}
+.trendy{
+font-family: 'Quicksand', sans-serif;
+font-size: 45px;
+color: #FF1E58;
+text-align: center;
+
+}
+.container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.food{
+width: 450px;
+background-color: white;
+margin: 15px;
+border-radius: 15px;
+}
+.card-image{
+height: 340px;
+margin-bottom: 15px;
+background-size: cover;
+background-position: center;
+border-bottom: 1px solid black;
+border-radius: 15px 15px 0 0;
+}
+.food-1{
+background-image: url(https://scontent.ftun9-1.fna.fbcdn.net/v/t39.30808-6/269868514_465363518535236_7246241828696330452_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=qEKmH8AyS74AX9zHpBQ&_nc_ht=scontent.ftun9-1.fna&oh=00_AT_MqzuP_GkoZ4_Ann5idJiIdv1vNtiF84hJhlArYz49JQ&oe=62DCCBB5);
+}
+.food-2{
+background-image: url(https://scontent.ftun9-1.fna.fbcdn.net/v/t39.30808-6/279893470_121629500510519_819996844026401965_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=b06sOFzOgKcAX_v7E9H&_nc_ht=scontent.ftun9-1.fna&oh=00_AT-6oxDq7fugW-TDzwHMCYLrWuKAOufrwHx1MIt9oyZH3A&oe=62DCBD1E);
+}
+.food-3{
+background-image: url(https://scontent.ftun9-1.fna.fbcdn.net/v/t39.30808-6/288879369_791327608944746_4634754669241382142_n.jpg?stp=cp1_dst-jpg&_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=2rFatErwmzQAX-FRLL1&_nc_ht=scontent.ftun9-1.fna&oh=00_AT-EjyR9UwLnB_qSQqCo68aXch-JGjK65yA160svwomqdA&oe=62DD875A);
+}
+.food a{
+background-color: black;
+color: white;
+padding: 15px 20px;
+display: block;
+text-align: center;
+margin: 20px 50px;
+border-radius: 10px;
+}
+.food h1{
+padding: 10px;
+font-family: 'Poppins', sans-serif;
+}
+.food p{
+padding: 10px;
+font-family: 'Poppins', sans-serif;
+}
+.food:hover{
+background-color: rgb(62,62,62);
+color: white;
+cursor: pointer;
+transform: scale(1.03);
+transition: all 0.3s ease;
+border: 2px solid   #FF1E58;
+}
+.food a:hover{
+background-color: #1EA6FF;
+transition:  0.3s ;
+}
+.food-4{
+background-image: url(https://scontent.ftun9-1.fna.fbcdn.net/v/t1.6435-9/118767533_1446587122211621_1177519598197417052_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=aSZBQ0_O-HAAX-x4AZo&tn=AjmXG0X3b-VOEONR&_nc_ht=scontent.ftun9-1.fna&oh=00_AT8ZSga3wRsbMO_HG2ggLq9etM3jjS9CmCOBxkMw8fcP0w&oe=62FFFBBE);
+}
+.food-5{
+background-image: url(https://cdn1.webmanagercenter.com/baya/wp-content/uploads/2017/06/resto-dareljeld.jpg);
+}
+.food-6{
+background-image: url(https://scontent.ftun9-1.fna.fbcdn.net/v/t39.30808-6/288493125_5567131343319181_4174899637505901748_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=vOf2_env5nEAX8USHUA&tn=AjmXG0X3b-VOEONR&_nc_ht=scontent.ftun9-1.fna&oh=00_AT9O9og4Cyv6yYKnvExMoM3c8CDw3kr1NkEqcj8ogiD_Zw&oe=62DE587A);
+}
+
+.enter-7{
+background-image: url(https://scontent.ftun9-1.fna.fbcdn.net/v/t39.30808-6/290329924_4698821160217455_5064828252240314079_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=ucdFrAWVG44AX_zTdvN&_nc_ht=scontent.ftun9-1.fna&oh=00_AT8QYKcgqD72vRZUtAbuwEh4MmPIIE0tJd6MDtaPpUWV2g&oe=62DE1A77);
+}
+.enter-8{
+background-image: url(https://www.bigdeal.tn/media/cache/sliddetaildeal/medias/11/laser_game/ban3.jpg);
+}
+.enter-9{
+background-image: url(https://www.kharjet.tn/wp-content/uploads/2019/09/Trampolia-1.jpg);
+}
+.enter{
+width: 450px;
+background-color: white;
+margin: 15px;
+border-radius: 15px;
+}
+.enter a{
+background-color: black;
+color: white;
+padding: 15px 20px;
+display: block;
+text-align: center;
+margin: 20px 50px;
+border-radius: 10px;
+}
+.enter h1{
+padding: 10px;
+font-family: 'Poppins', sans-serif;
+}
+.enter p{
+padding: 10px;
+font-family: 'Poppins', sans-serif;
+}
+.enter:hover{
+background-color: rgb(62,62,62);
+color: white;
+cursor: pointer;
+transform: scale(1.03);
+transition: all 0.3s ease;
+border: 2px solid   #8CFF32;
+}
+.enter a:hover{
+background-color: #1EA6FF;
+transition:  0.3s ;
+}
+.enter-10{
+background-image: url(https://carthageland.bravebooking.net/clients/MD22035/media/photos/articles/ssection/10/h_Attractions_aquatiques.jpg);
+}
+.enter-11{
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/cc/Simeon_Ivanov_karting.jpg);
+}
+.enter-12{
+background-image: url(https://www.paintballtunisie.com/assets/img/about/1.jpg);
+}
+.tourism{
+width: 450px;
+background-color: white;
+margin: 15px;
+border-radius: 15px;
+}
+.tourism a{
+background-color: black;
+color: white;
+padding: 15px 20px;
+display: block;
+text-align: center;
+margin: 20px 50px;
+border-radius: 10px;
+}
+.tourism h1{
+padding: 10px;
+font-family: 'Poppins', sans-serif;
+}
+.tourism p{
+padding: 10px;
+font-family: 'Poppins', sans-serif;
+}
+.tourism:hover{
+background-color: rgb(62,62,62);
+color: white;
+cursor: pointer;
+transform: scale(1.03);
+transition: all 0.3s ease;
+border: 2px solid   #FED498;
+}
+.tourism a:hover{
+background-color: #1EA6FF;
+transition:  0.3s ;
+}
+.enter-13{
+background-image: url(https://www.leaders.com.tn/uploads/content/thumbnails/154090929857_content.jpg);
+}
+.enter-14{
+background-image: url(https://pix10.agoda.net/geo/city/712171/58a28b6ef2d50d55f08b5e6983e5b0a5.jpg?ca=0&ce=1&s=1920x822);
+}
+.enter-15{
+background-image: url(https://img.ev.mu/images/portfolio/villes/53657/1605x1070/392184.jpg);
+}
+.enter-16{
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e0/Sud_saharien_tunisien.jpg);
+}
+.enter-17{
+background-image: url(https://img.ev.mu/images/attractions/3406/960x640/336.jpg);
+}
+.enter-18{
+background-image: url(https://guide-voyage-tunisie.com/wp-content/uploads/2021/01/el-jem4-scaled.jpg);
+}
+.enter-19{
+background-image: url(https://gda-mice.com/wp-content/uploads/2021/04/SIDI-BOU-SAID-1.jpg);
+}
+.enter-20{
+background-image: url(https://carthagemagazine.com/wp-content/uploads/2020/10/Dougga_Capitol-scaled.jpg);
+}
+.carousel-wrapper {
+height: 400px;
+position: relative;
+width: 800px;
+display: block;
+margin: 50px auto ;
+border: 2px solid white;
+}
+
+.carousel-item {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+padding: 25px 50px;
+opacity: 0;
+transition: all 0.5s ease-in-out;
+}
+.arrow{
+border: solid white;
+border-width: 0 3px 3px 0;
+display: inline-block;
+padding: 12px;
+}
+.arrow-prev {
+left: 30px;
+position: absolute;
+top: 50%;
+transform: translateY(-50%) rotate(135deg);
+
+}
+.arrow-next {
+right: 30px;
+position: absolute;
+top: 50%;
+transform: translateY(-50%) rotate(-45deg);
+}
+
+[id^= "item"] {
+display: none;
+}
+.item-1 {
+z-index: 2;
+opacity: 1;
+background: url('https://scontent.ftun1-2.fna.fbcdn.net/v/t39.30808-6/289230154_791327415611432_9055395578961585936_n.jpg?stp=cp1_dst-jpg&_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=e9jPyYXY2v8AX_rInyH&_nc_ht=scontent.ftun1-2.fna&oh=00_AT-voxGC36OFbi_UCvdcYuWTfYmcXSaXTFM5sgj7ydmFnw&oe=62DEBC33');
+background-size: cover;
+background-position: center;
+}
+.item-2 {
+background: url('https://scontent.ftun1-2.fna.fbcdn.net/v/t39.30808-6/291784661_4698797196886518_5026223512567451035_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=CuWV9Lgn6EwAX9Wc18X&_nc_ht=scontent.ftun1-2.fna&oh=00_AT_mFS5sIIaHf1r7U2fmWWR55G1lyw5SV_q8AOxBSoBUYA&oe=62DD8A09');
+background-size: cover;
+background-position: center;
+}
+.item-3 {
+background: url('https://img.ev.mu/images/portfolio/villes/65863/1605x1070/412291.jpg');
+background-size: cover;
+background-position: center;
+}
+
+*:target ~ .item-1{
+opacity: 0;
+}
+#item-1:target ~ .item-1 {
+opacity: 1;
+
+}
+#item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+z-index: 3;
+opacity: 1;
+} 
+.about{
+margin: 70px auto;
+width: 50%;
+padding: 8px;
+}
+.facebook-img{
+float: left;
+width: 550px;
+height: 550px;
+margin-right: 20px;
+}
+
+.text{
+    text-align: left;
+}
+.portfolio{
+    background-color: #FF1E58;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.text a:hover{
+    background-color: white;
+    transition: all 0.3s ease;
+    color: #FF1E58;
+}
+.facebook-img:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+    border: 2px solid   #00FFFFFF;
+    }
+    /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: white;
+    color: #FF1E58;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #FF1E58;
+    transition: all 0.3s ease;
+    color: #fff;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+  }
+  #preloader{
+    background: white url(https://miro.medium.com/max/1400/1*CsJ05WEGfunYMLGfsT2sXA.gif) no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+  .video{
+    display: none;
+  }
